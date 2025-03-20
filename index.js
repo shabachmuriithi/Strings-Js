@@ -40,11 +40,12 @@ const position = "UndERneath";
 const lowerPosition = position.toLowerCase();
 console.log({lowerPosition});
 
-const stmt = "A wonderful world";
-.split(" ");
-.map(word=>word.charAt(0).toUpperCase() + word.slice(1).toLowerCase);
-.join("");
+let stmt = "A wonderful world"
+.split(" ")
+.map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+.join(" ");
 console.log({stmt});
+
 
 
 
